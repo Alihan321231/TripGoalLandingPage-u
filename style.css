@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+.head {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 25px;
+}
+.center a {
+    color: var(--Blue-Dark, #002248);
+font-size: 16px;
+font-weight: 400;
+line-height: 112.5% ; /* */
+transition: 1s;
+margin: 10px;
+}
+.center a:hover {
+    color: #3685FB;
+font-size: 16px;
+font-weight: 400;
+line-height:  112.5% ; /**/
+}
+.right button {
+    border-radius: 10px;
+background: #3685FB;color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 112.5% ; /* */
+padding: 15px 25px;
+}
+#book {
+    background: #F8F8F8;
+backdrop-filter: blur(30px);
+}
+#head {
+    background: #F8F8F8;
+backdrop-filter: blur(30px);
+}
+.book {
+    display: flex;
+}
+.text h4 {
+    color: var(--Blue-Light, #00B3A0);
+
+/* Sub title */
+font-size: 16px;
+font-weight: 500;
+line-height: 112.5%; /*  */
+margin-bottom: 20px;
+}
+#book {
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+.text h1 {
+    color: var(--Blue-Dark, #002248);
+font-family: Eksell Display;
+font-size: 60px;
+font-style: normal;
+font-weight: 550;
+line-height: 72px; /* 120% */
+text-transform: capitalize;
+}
+.text p {
+    color: var(--Paragraph-Color-H3, #697687);
+    margin: 20px 0;
+
+/* Paragraph */
+font-size: 16px;
+font-weight: 400;
+line-height:175% ; /* */
+}
+.text button {
+    border-radius: 10px;
+background: #3685FB;color: #FFF;
+text-align: center;
+
+/* Button */
+font-size: 16px;
+font-weight: 500;
+line-height: 125%; /*  */
+padding: 15px 29px;
+}
+.text {
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.loc {
+    display: flex;
+    justify-content: center; /* Выровнять по горизонтали по центру */
+    align-items: center; /* Выровнять по вертикали по центру */
+   /* Минимальная высота, чтобы блок был посередине страницы */
+
+}
+#loc {
+    background: white;
+backdrop-filter: blur(30px);
+
+}
+.loc4 {
+   margin: 20px;
+background: #3685FB;
+}
+.img {
+    display: flex;
+    flex-direction: column; /* Размещение текста под изображением */
+    align-items: center; /* Центрирование по горизонтали */
+    text-align: center; /* Выравнивание текста по центру */
+    border-radius: 10px;
+    border: 2px solid #F8F8F8;
+    background: #FFF;
+    padding: 40px;
+    margin: 10px; /* Добавляем небольшой отступ между блоками */
+}
+.block {
+    display: flex;
+    justify-content: center;
+
+}
+.img p {
+    text-align: center;
+    color: var(--Paragraph-Color-H3, #697687);
+text-align: center;
+
+/* Paragraph */
+font-size: 16px;
+font-weight: 400;
+line-height: 175%; /*  */
+}
+.img h4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--Blue-Dark, #002248);
+text-align: center;
+font-size: 20px;
+font-weight: 6 00;
+line-height: 140%; /*  */
+}
+.text1 {
+    display: flex;
+    flex-direction: column; /* Размещение текста под изображением */
+    align-items: center; /* Центрирование по горизонтали */
+    text-align: center;
+}
+.text1 h4 {
+    color: var(--Blue-Light, #00B3A0);
+text-align: center;
+
+/* Sub title */
+font-size: 16px;
+font-weight: 500;
+line-height: 112.5%; /*  */
+}
+.text1 h1 {
+    color: var(--Blue-Dark, #002248);
+text-align: center;
+font-family: Eksell Display;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+text-transform: capitalize;
+}
+.text1 p {
+    color: var(--Paragraph-Color-H3, #697687);
+text-align: center;
+
+/* Paragraph */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.trip {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.text1 h1 {
+    margin:  5px 0 20px 0;
+}
+.block {
+    margin-top: 60px;
+
+}
+.img {
+    margin:0  20px ;
+}
+#sug {
+    background: #F8F8F8;
+   padding-top: 70px;
+}
+#sug img {
+    margin: 0 5px ;
+    margin-top: 60px;
+    position:relative;
+    bottom: 100px;
+} 
+.sug h4 {
+    color: var(--Blue-Light, #00B3A0);
+
+/* Sub title */
+font-size: 16px;
+font-weight: 500;
+line-height: 112.5%; /*  */
+
+}
+.sug h1 {
+    color: var(--Blue-Dark, #002248);
+font-family: Eksell Display;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 123.81%; /*  */
+margin: 15px 0;
+}
+.sug p {
+    color: var(--Paragraph-Color-H3, #697687);
+
+/* Paragraph */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /*  */
+}
+.arrow {
+    position: relative;
+right: 60px;
+bottom: 00px;
+text-align: right;
+
+}
+
+.zek {
+    position: relative;
+    bottom: 100px;
+    left: 670px;
+}
+.step {
+  
+}
+.vector4 {
+    position: relative;
+top: -694px;
+left: 400px;
+}
+.zektext {
+    position: relative;
+    bottom: 1200px;
+    right: -870px;
+}
+.zektext h4 {
+    color: var(--Blue-Light, #00B3A0);
+
+/* Sub title */
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 112.5% */
+margin-bottom: 20px;
+}
+.zektext h1 {
+    color: var(--Blue-Dark, #002248);
+font-family: Eksell Display;
+font-size: 42px;
+font-weight: 600;
+line-height: 52px; /* 123.81% */
+text-transform: capitalize;
+}
+.group38 {
+    position: relative;
+    bottom: 900px;
+    left: -870px;
+}
+.zek {
+    position: relative;
+    left: -500px;
+    bottom: 630px;
+}
+#about {
+    position: relative;
+  
+    bottom: 800px;
+}
+.zektext p {
+    color: var(--Paragraph-Color-H3, #697687);
+
+/* Paragraph */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+margin: 30px 0;
+}
+.test {
+    position: relative;
+bottom: 800px;
+
+}
+#feed {
+    position: relative;
+
+
+}
+.zektext button {
+    border-radius: 10px;
+background: #3685FB;
+color: #FFF;
+text-align: center;
+
+/* Button */
+font-size: 16px;
+font-style: normal;
+padding: 15px 30px;
+font-weight: 500;
+line-height: 20px; /* 125% */
+}
+.h4a {
+    color: var(--Blue-Light, #00B3A0);
+
+/* Sub title */
+font-size: 16px;
+font-weight: 500;
+line-height: 112.5%; /*  */
+}
+.nbv {
+    margin-top: 40px;
+}
+.h1a {
+    color: var(--Blue-Dark, #002248);
+font-family: Eksell Display;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 123.81% ; /* */
+text-transform: capitalize;
+margin:  10px 0 ;
+}
+.about p {
+    color: var(--Paragraph-Color-H3, #697687);
+
+/* Paragraph */
+font-size: 16px;
+font-weight: 400;
+line-height: 175%; /*  */
+}
+.block-a button  {
+    border-radius: 10px;
+    border: 2px solid #F8F8F8;
+    background: #FFF;
+ margin: 0 5px;
+    
+}
+.about-img {
+    position: relative;
+    bottom: 620px;
+    left: 600px;
+}
+.block-a button {
+    padding: 25px 30px;
+}
+.block-a h1 {
+    color: #3685FB;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 550;
+    line-height:  106.25% ; /**/
+    font-family: Eksell Display;
+}
+.block-a h4 {
+    color: var(--Blue-Dark, #002248);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%; /*  */
+}
+.block-b button  {
+    padding: 30px 30px;
+    border-radius: 10px;
+border: 2px solid #F8F8F8;
+background: #FFF;
+margin-top: 40px;
+margin: 0 6px;
+}
+
+.block-b {
+    display: flex;
+    margin-top: 20px;
+}
+.block-b h1 {
+    color: #3685FB;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 550;
+    line-height:  106.25% ; /**/
+    font-family: Eksell Display;
+}
+.block-b h4 {
+    color: var(--Blue-Dark, #002248);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+}
+#test {
+    position: relative;
+    bottom: 500px;
+    ba
+    padding: 90px;
+}
+.testtext {
+text-align: center;
+}
+.testtext h4 {
+    color: var(--Blue-Light, #00B3A0);
+text-align: center;
+
+/* Sub title */
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 112.5%; /*  */
+}
+.testtext h1 {
+    color: var(--Blue-Dark, #002248);
+font-family: Eksell Display;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 123.81%; /*  */
+}
+.testtext p {
+    color: var(--Paragraph-Color-H3, #697687);
+text-align: center;
+
+/* Paragraph */
+font-size: 16px;
+font-weight: 400;
+line-height: 175%; /*  */
+}
+.btn1 {
+    position: relative;
+text-align: right;
+bottom: 40px;
+}
+.feed h4 {
+    color: var(--Blue-Light, #00B3A0);
+
+    /* Sub title */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 112.5%; /*  */
+}
+#feed {
+    position: relative;
+   z-index: 1;
+   bottom: 1000px;
+}
+#cont {
+    position: relative;
+    bottom: 550px;
+}
+#footer {
+    position: relative;
+    bottom: 700px;
+}
+.textzxc {
+    position: relative;
+    bottom: 680px;
+}
+.feed h1 {
+    color: var(--Blue-Dark, #002248);
+font-family: Eksell Display;
+font-size: 42px;
+font-weight: 600;
+line-height: 52px; /* 123.81% */
+}
+.btn1 button {
+    border-radius: 10px;
+background: #3685FB;
+color: #FFF;
+text-align: center;
+
+/* Button */
+font-size: 16px;
+font-weight: 700;
+line-height: 20px; /* 125% */
+padding: 13px 25px;
+}
+
+.swiper-container {
+    display: flex; /* Устанавливаем flex контейнер */
+    overflow: hidden;
+
+}
+.swiper-wrapper {
+    display: flex; /* Отображаем все слайды в одной линии */
+    gap: 30px; /* Отступ между слайдами (уменьшенный) */
+    transition: transform 0.3s ease; /* Плавная анимация переключения слайдов */
+}
+  
+.swiper-slide {
+    flex-shrink: 0; /* Запрещаем сжатие слайдов */
+    width: 300x; /* Ширина каждого слайда, чтобы они были в одной линии */
+    height: auto; /* Автоматическая высота слайдов, чтобы сохранить пропорции изображений */
+  }
+.cont img {
+    position: relative;
+bottom: 260px;
+left: 100px;
+}
+
+.footer-line {
+    heighцt: 1px; /* Высота линии */
+    baцckground-color: #ccc; /* Цвет линии */
+    margin-tуop: -1px; /* Отрицательный отступ, чтобы линия была над футером */
+}
+
+.textzxc {
+    color: var(--Paragraph-Color-H3, #697687);
+text-align: center;
+font-family: Airbnb Cereal App;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 100% */
+}
+
+.footer-line {
+    height: 1px; 
+    background-color: rgba(105, 118, 135, 0.10); 
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 20px; /* Отступ снизу */
+}
